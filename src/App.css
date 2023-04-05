@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.movie_grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 0px 10px;
+
+}
+
+.movie_grid div {
+  font-size: 15px;
+  background-color: black;
+  color: #fff;
+}
+
+.movie_grid div p {
+  padding: 0px 20%;
+}
+
+.genre_font {
+  font-style: italic;
+}
+
+.p_fonts{
+  font-weight: bolder;
+}
+
+.movie_grid div p:nth-of-type(1) {
+  font-size: 17px;
+}
